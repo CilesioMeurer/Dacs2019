@@ -2,6 +2,8 @@ package br.univille.dacs2019.service;
 
 import java.util.List;
 
+import javax.validation.Valid;
+
 import org.springframework.stereotype.Service;
 
 import br.univille.dacs2019.model.Cliente;
@@ -10,5 +12,7 @@ import br.univille.dacs2019.model.Cliente;
 public interface ClienteService {
 	
 	List<Cliente> getall();
+
+	void save(Cliente cliente);
 
 }
