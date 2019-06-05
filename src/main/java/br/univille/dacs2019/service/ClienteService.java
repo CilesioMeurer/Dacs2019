@@ -14,5 +14,7 @@ public interface ClienteService {
 	List<Cliente> getall();
 
 	void save(Cliente cliente);
+	
+	void remove(Cliente cliente);
 
 }
